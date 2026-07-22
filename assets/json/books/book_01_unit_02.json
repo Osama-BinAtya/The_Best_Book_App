@@ -1,0 +1,22 @@
+{
+    "id": "unit_02",
+    "title": "Unit 2: More Practice",
+    "order": 2,
+    "pages": [
+        {
+            "id": "page_01",
+            "pageNumber": 1,
+            "items": [
+                {
+                    "id": "item_01",
+                    "type": "text",
+                    "content": "More practice soon.",
+                    "audioPath": "assets/audios/books/book_01/apple.mp3",
+                    "top": 0.1,
+                    "left": 0.1,
+                    "width": 0.7
+                }
+            ]
+        }
+    ]
+}

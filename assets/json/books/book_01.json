@@ -1,0 +1,16 @@
+﻿{
+    "units": [
+        {
+            "id": "unit_01",
+            "title": "Unit 1: First Steps",
+            "order": 1,
+            "file": "assets/json/books/book_01_unit_01.json"
+        },
+        {
+            "id": "unit_02",
+            "title": "Unit 2: More Practice",
+            "order": 2,
+            "file": "assets/json/books/book_01_unit_02.json"
+        }
+    ]
+}

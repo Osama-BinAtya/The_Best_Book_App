@@ -1,0 +1,38 @@
+{
+    "id": "unit_01",
+    "title": "Unit 1: First Steps",
+    "order": 1,
+    "pages": [
+        {
+            "id": "page_01",
+            "pageNumber": 1,
+            "items": [
+                {
+                    "id": "item_01",
+                    "type": "text",
+                    "content": "A. Ask and answer.",
+                    "audioPath": "assets/audios/books/book_01/apple.mp3",
+                    "top": 0.05,
+                    "left": 0.08,
+                    "width": 0.6
+                }
+            ]
+        },
+        {
+            "id": "page_02",
+            "pageNumber": 1,
+            "items": [
+                {
+                    "id": "item_01",
+                    "type": "text",
+                    "content": "A. Ask and answer.",
+                    "imagePath": "assets/images/books/book_01/apple.jpeg",
+                    "audioPath": "assets/audios/books/book_01/apple.mp3",
+                    "top": 0.05,
+                    "left": 0.08,
+                    "width": 0.6
+                }
+            ]
+        }
+    ]
+}

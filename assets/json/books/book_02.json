@@ -1,0 +1,10 @@
+﻿{
+    "units": [
+        {
+            "id": "unit_01",
+            "title": "Unit 1: First Steps",
+            "order": 1,
+            "file": "assets/json/books/book_02_unit_01.json"
+        }
+    ]
+}

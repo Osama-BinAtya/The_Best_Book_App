@@ -5,16 +5,18 @@ import 'unit_model.dart';
 class BookModel {
   final String id;
   final String title;
-  final String color; // 👈 1. إضافة متغير اللون
+  final String color;
   final String coverPath;
+  final String? detailsPath;
   final List<UnitModel> units;
 
   BookModel({
     required this.id,
     required this.title,
-    required this.color, // 👈 2. إضافته إلى المُنشئ (Constructor)
+    required this.color,
     required this.coverPath,
-    required this.units,
+    this.detailsPath,
+    this.units = const [],
   });
 
   factory BookModel.fromJson(Map<String, dynamic> json) {
@@ -22,10 +24,9 @@ class BookModel {
     return BookModel(
       id: json['id'] ?? '',
       title: json['title'] ?? '',
-      color:
-          json['color'] ??
-          '#6B0282', // 👈 3. قراءة اللون من الـ JSON (مع لون بنفسجي احترازي)
+      color: json['color'] ?? '#6B0282',
       coverPath: json['coverPath'] ?? '',
+      detailsPath: json['detailsPath'] as String?,
       units: rawUnits
           .map((unit) => UnitModel.fromJson(unit as Map<String, dynamic>))
           .toList(),
